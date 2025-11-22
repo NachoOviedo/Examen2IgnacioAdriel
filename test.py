@@ -109,7 +109,7 @@ class TestMiClase(unittest.TestCase):
     def test_Encuentra_elemento_ausente(self):
         """Prueba cuando el elemento no está presente en la lista"""
         lista = ["manzana", "banana", "naranja", "uva"]
-        resultado = self.objeto.Encuentra(lista, "pera")
+        resultado = self.objeto.Encuentra(lista, "uva")
         self.assertFalse(resultado)
 
 if __name__ == '__main__':
